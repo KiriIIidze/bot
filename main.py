@@ -52,10 +52,7 @@ if response.status_code == 200:
     Get_CNY = Sp_Valute.get('CNY')
     Get_Name_CNY = Get_CNY.get('Name')
     Get_Value_CNY = Get_CNY.get('Value')
-    # print(Get_Name_USD, Get_Value_USD)
-    # print(Get_Name_EUR, Get_Value_EUR)
-    # print(Get_Name_CNY, Get_Value_CNY)
-    # print(Sp_Valute)
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
