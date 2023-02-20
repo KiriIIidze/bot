@@ -8,7 +8,7 @@ from datetime import datetime
 
 bot = telebot.TeleBot("6171211954:AAF7BGZBRsA0wS4qskbWEdQywHcD6pkYkx8")
 
-# обработчик SQL выражений сделать через функцию:
+# обработчик SQL выражений через функцию:
 def post_sql_query(sql_query):
     with sqlite3.connect('db\my.db') as connection:
         cursor = connection.cursor()
